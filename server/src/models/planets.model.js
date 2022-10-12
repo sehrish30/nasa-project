@@ -44,10 +44,14 @@ function loadPlanetsData() {
   });
 }
 
+function getAllPlanets() {
+  return habitablePlanets;
+}
+
 const results = [];
 // read the file as a stream
 
 module.exports = {
-  planets: habitablePlanets,
   loadPlanetsData,
+  getAllPlanets,
 };
