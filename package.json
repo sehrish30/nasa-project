@@ -1,9 +1,9 @@
 {
   "name": "nasa-project",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
+    "server": "cd server && npm run watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
