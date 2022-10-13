@@ -6,7 +6,7 @@ const launch = {
   launchDate: new Date("December 27, 2030"),
   target: "Kepler-442 b",
   flightNumber: 100,
-  customer: ["ZTM", "NASA"],
+  customers: ["ZTM", "NASA"],
   upcoming: true,
   success: true,
 };
