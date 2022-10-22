@@ -1,0 +1,6 @@
+# exclude files from docker image
+*/node_modules
+
+.git
+
+server/public
